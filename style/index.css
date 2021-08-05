@@ -47,7 +47,6 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width:100%;
-        border: 1px solid black;
     }
 
     /*General Style */
@@ -60,10 +59,18 @@ blockquote, q {
         background-color: #FBFFFB;
         color:#4f4f4f; 
     }
-
+    h1, h2, h3, p, a, button{
+        font-family: 'Hahmlet', serif;
+        color: darkgreen;
+    }
     h1{
         font-size:6rem;
-        color: darkgreen;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    h3{
+        font-size: 2rem;
     }
 
     /* Nav Styles */
@@ -88,8 +95,10 @@ blockquote, q {
         width:10%;
         background-color: #faedcd;
         padding:10px;
-        margin:0px;
+        margin:1% 0;
         text-align:center;
+        border:1px solid darkolivegreen;
+        text-decoration: none;
     }
     
     a:hover{
@@ -103,17 +112,22 @@ blockquote, q {
     }
     .main-image{
         background-image: url("../image/cucumber.jpg");
-        width:30%;
+        width:50%;
         background-size:cover;
         background-position: center;
-        height: 40vh;
+        height: 50vh;
         margin:1%;
     }
 
     .intro-content{
-        text-align:center;
-        width:50%;
+        text-align:left;
+        width:40%;
         margin:0 auto;
+    }
+    button{
+        padding:10px;
+        margin:5px 0px;
+        background-color: #faedcd;
     }
     
     /*Projects Section Styles */
@@ -125,8 +139,7 @@ blockquote, q {
     }
     .project{
       width:21%;
-      margin:2% 0;
-    border: 1px solid black;
+      margin:2% 2%;
     text-align:center;
 
     }
@@ -135,7 +148,7 @@ blockquote, q {
       background-size:cover;
       background-repeat: no-repeat; 
       background-position: center;
-      height: 40vh;
+      height: 35vh;
     }
     /* footer styles */
     footer{
