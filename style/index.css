@@ -1,1 +1,159 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+    /* Universal Selector */
+    *{
+        box-sizing: border-box;
+        padding:0;
+        margin:0;
+        max-width:100%;
+    }
+
+    /*General Style */
+    html{
+        font-size:62.5%
+    }
+    body{
+        font-size:1.6rem;
+        line-height:1.5;
+        background-color: #FBFFFB;
+        color:#4f4f4f; 
+    }
+    h1, h2, h3, p, a, button{
+        font-family: 'Hahmlet', serif;
+        color: darkgreen;
+    }
+    h1{
+        font-size:6rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+
+    /* Nav Styles */
+
+    nav{
+        background-color: #ccd5ae;
+    }
+
+    .nav-buttons{
+        display:flex;
+        margin-left:5%;
+        margin-bottom: 1%;
+       
+    }
+
+    nav h1{
+        margin-left:1%;
+    }
+    
+    a{
+        height:10%;
+        width:10%;
+        background-color: #faedcd;
+        padding:10px;
+        margin:1% 0;
+        text-align:center;
+        border:1px solid darkolivegreen;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        background-color:#d4a373;
+    }
+    /* Main Section Styles */
+    main{
+        display:flex;
+        align-items: center;
+
+    }
+    .main-image{
+        background-image: url("../image/cucumber.jpg");
+        width:50%;
+        background-size:cover;
+        background-position: center;
+        height: 50vh;
+        margin:1%;
+    }
+
+    .intro-content{
+        text-align:left;
+        width:40%;
+        margin:0 auto;
+    }
+    button{
+        padding:10px;
+        margin:5px 0px;
+        background-color: #faedcd;
+    }
+    
+    /*Projects Section Styles */
+    .projects-container{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .project{
+      width:21%;
+      margin:2% 2%;
+    text-align:center;
+
+    }
+    .bgimage{
+    background-image: url("../image/cucumber.jpg");  
+      background-size:cover;
+      background-repeat: no-repeat; 
+      background-position: center;
+      height: 35vh;
+    }
+    /* footer styles */
+    footer{
+        text-align: center;
+        padding:20px;
+        background-color: #ccd5ae;
+    }
+    
