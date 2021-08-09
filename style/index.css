@@ -47,6 +47,7 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width:100%;
+        border: 1px solid black;
     }
 
     /*General Style */
@@ -116,7 +117,7 @@ blockquote, q {
         background-size:cover;
         background-position: center;
         height: 50vh;
-        margin:1%;
+        margin:1% auto;
     }
 
     .intro-content{
@@ -141,7 +142,6 @@ blockquote, q {
       width:21%;
       margin:2% 2%;
     text-align:center;
-
     }
     .bgimage{
     background-image: url("../image/cucumber.jpg");  
@@ -157,3 +157,63 @@ blockquote, q {
         background-color: #ccd5ae;
     }
     
+    /* Media Queries */
+
+    @media (max-width: 800px){
+        a{
+            width:18%;
+        }
+        .projects-container{
+            justify-content:center;
+        } 
+        .project{
+            width:40%;
+    }
+
+    @media (max-width: 500px){
+        /* Header Section Styles */
+        nav{
+          background-color:#fff;  
+        }
+        nav h1{
+            text-align: center;
+        }
+        .nav-buttons{
+            flex-direction: column;
+            align-items: center;
+        }
+        a{
+            width:30%;
+            margin:0 0;
+        }
+        /* Main Section Styles */
+        main{
+            flex-wrap: wrap;
+        }
+        .main-image, .intro-content{
+            width:90%;
+            text-align:center;
+        }
+        .main-image{
+            height:30vh;
+        }
+        button{
+            width:35%;
+            font-size: 1.6rem;
+        }
+        /*Projects Section Styles */
+        .project{
+            margin:5% auto;
+        }
+        .project h3{
+            margin-top:7%;
+        }
+        .bgimage{
+            height:20vh;
+        }
+         /* footer styles */
+         footer h3{
+            font-size: 3rem;
+         }
+         
+    }
