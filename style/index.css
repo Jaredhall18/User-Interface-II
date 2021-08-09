@@ -117,7 +117,7 @@ blockquote, q {
         background-size:cover;
         background-position: center;
         height: 50vh;
-        margin:1%;
+        margin:1% auto;
     }
 
     .intro-content{
@@ -171,6 +171,7 @@ blockquote, q {
     }
 
     @media (max-width: 500px){
+        /* Header Section Styles */
         nav{
           background-color:#fff;  
         }
@@ -184,5 +185,19 @@ blockquote, q {
         a{
             width:30%;
             margin:0 0;
+        }
+        /* Main Section Styles */
+        main{
+            flex-wrap: wrap;
+        }
+        .main-image, .intro-content{
+            width:90%;
+            text-align:center;
+        }
+        .main-image{
+            height:30vh;
+        }
+        button{
+            width:35%;
         }
     }
