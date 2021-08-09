@@ -199,5 +199,21 @@ blockquote, q {
         }
         button{
             width:35%;
+            font-size: 1.6rem;
         }
+        /*Projects Section Styles */
+        .project{
+            margin:5% auto;
+        }
+        .project h3{
+            margin-top:7%;
+        }
+        .bgimage{
+            height:20vh;
+        }
+         /* footer styles */
+         footer h3{
+            font-size: 3rem;
+         }
+         
     }
