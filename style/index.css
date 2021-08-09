@@ -47,6 +47,7 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width:100%;
+        border: 1px solid black;
     }
 
     /*General Style */
@@ -141,7 +142,6 @@ blockquote, q {
       width:21%;
       margin:2% 2%;
     text-align:center;
-
     }
     .bgimage{
     background-image: url("../image/cucumber.jpg");  
@@ -157,3 +157,19 @@ blockquote, q {
         background-color: #ccd5ae;
     }
     
+    /* Media Queries */
+
+    @media (max-width: 800px){
+        a{
+            width:18%;
+        }
+        .projects-container{
+            justify-content:center;
+        } 
+        .project{
+            width:40%;
+    }
+
+    @media (max-width: 500px){
+        nav{}
+    }
